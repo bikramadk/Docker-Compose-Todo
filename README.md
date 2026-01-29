@@ -26,7 +26,7 @@ docker-compose-todo/
 └── README.md                 
 
 #2 Request / Traffic Flow
-  a. User opens the application in the browser:   http://localhost:8081
+  --User opens the application in the browser:   http://localhost:8081
 
 #3 ▶️ How to Run the Project
 Prerequisites:
