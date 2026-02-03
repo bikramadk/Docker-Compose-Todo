@@ -1,10 +1,10 @@
-# 📝 Docker Compose Todo Application
+##  Docker Compose Todo Application
 
 A production-ready todo application demonstrating modern containerization practices with Docker Compose, featuring a complete multi-container architecture with Nginx reverse proxy, Node.js backend, and MongoDB database.
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 This application follows a **multi-container architecture** using Docker Compose, mirroring real-world production systems:
 
@@ -39,7 +39,7 @@ This application follows a **multi-container architecture** using Docker Compose
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 docker-compose-todo/
@@ -60,7 +60,7 @@ docker-compose-todo/
 
 ---
 
-## 🚀 Request / Traffic Flow
+##  Request / Traffic Flow
 
 1. **User** opens the application in browser: `http://localhost:8081`
 2. **Nginx** receives the request and routes it:
@@ -72,7 +72,7 @@ docker-compose-todo/
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 ### Prerequisites
 
@@ -109,7 +109,7 @@ docker-compose-todo/
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -122,19 +122,19 @@ docker-compose-todo/
 
 ---
 
-## 🔑 Key Features
+##  Key Features
 
-- ✅ Multi-container architecture with Docker Compose
-- ✅ Nginx reverse proxy for routing
-- ✅ Isolated backend service (not publicly exposed)
-- ✅ Persistent MongoDB storage
-- ✅ Production-ready container patterns
-- ✅ Environment-based configuration
-- ✅ Clean separation of concerns
+-  Multi-container architecture with Docker Compose
+-  Nginx reverse proxy for routing
+-  Isolated backend service (not publicly exposed)
+-  Persistent MongoDB storage
+-  Production-ready container patterns
+-  Environment-based configuration
+-  Clean separation of concerns
 
 ---
 
-## 🛠️ Development
+##  Development
 
 ### View Logs
 
@@ -155,7 +155,7 @@ docker compose up --build
 ```
 
 
-## 🎯 Purpose
+##  Purpose
 
 This project is part of a **Junior DevOps learning journey** and is designed to:
 
@@ -167,7 +167,7 @@ This project is part of a **Junior DevOps learning journey** and is designed to:
 
 ---
 
-## 📝 Configuration Files
+##  Configuration Files
 
 ### `docker-compose.yml`
 Orchestrates all services, defines networks, volumes, and dependencies.
@@ -180,7 +180,7 @@ Defines the Node.js backend container image.
 
 ---
 
-## 🔒 Security Considerations
+##  Security Considerations
 
 - MongoDB is **not exposed** to the host machine
 - Backend API is only accessible through Nginx
@@ -189,13 +189,13 @@ Defines the Node.js backend container image.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Bikram Raj Adhikari**  
 *Aspiring DevOps Engineer*
@@ -203,4 +203,3 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 - GitHub: [@bikramadhikari](https://github.com/bikramadhikari)
 - LinkedIn:www.linkedin.com/in/bikram-raj-adhikari
 
-**Made with ❤️ for learning and growth in DevOps**
